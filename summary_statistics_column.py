@@ -1,3 +1,5 @@
+# Use this to display summary statistics for a single column in a dataframe
+# Import the required library
 import pandas as pd
 
 # Create the sample DataFrame (replace this with your own DataFrame)
