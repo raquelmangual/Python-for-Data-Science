@@ -10,3 +10,11 @@ df = pd.DataFrame(data)
 
 # Display summary statistics for the "Age" column
 print(df['Age'].describe())
+
+# Display individual summary statistics directly
+print(df['Age'].mean())    # Mean
+print(df['Age'].median())  # Median
+print(df['Age'].std())     # Standard deviation
+print(df['Age'].min())     # Minimum
+print(df['Age'].max())     # Maximum
+print(df['Age'].mode())    # Mode
