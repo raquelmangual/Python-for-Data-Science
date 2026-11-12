@@ -1,6 +1,6 @@
 # Python for Data Science
 
-A collection of Python code, scripts, and examples that I found helpful while earning my **Master of Science (MS) in Data Analytics**.
+My collection of Python code, scripts, and examples that I found helpful while earning my **Master of Science (MS) in Data Analytics**.
 
 ## About This Repository
 
@@ -37,32 +37,15 @@ Depending on the example, code may use some of the following Python libraries:
 | Seaborn | Statistical visualization |
 | SciPy | Scientific and statistical computing |
 | Scikit-learn | Machine learning and predictive modeling |
-
-Examples may be provided as Python scripts (`.py`) or Jupyter Notebooks (`.ipynb`).
+| TensorFlow | Natural language processing
 
 ## Getting Started
 
-You can simply download a ZIP file containing all the scripts. Or...
+Download an individual script by opening it and clicking "Download raw file". You can also just copy and paste it into your favorite code editor.
 
-Clone the repository:
+You can also download a ZIP file containing all the scripts.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-```
-
-Navigate to the repository directory:
-
-```bash
-cd YOUR-REPOSITORY
-```
-
-Install the libraries needed for the examples you want to run. For example:
-
-```bash
-pip install pandas numpy matplotlib seaborn scipy scikit-learn jupyter
-```
-
-Individual scripts or notebooks may require additional dependencies.
+Individual scripts may require additional dependencies.
 
 ## Who Is This Repository For?
 
