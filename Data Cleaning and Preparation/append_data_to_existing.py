@@ -7,8 +7,9 @@ existing_df = pd.read_csv('existing_data.csv')
 # Read the CSV file you want to append
 new_data = pd.read_csv('new_data.csv')
 
-# Append the new data to the existing DataFrame
+# Append the new data to the existing dataframe
 combined_df = pd.concat([existing_df, new_data], ignore_index=True)
+# ignore_index=True ensures that the resulting DataFrame has a new, continuous index.
 
 # Optionally, you can save the combined dataframe to a new CSV file
 combined_df.to_csv('combined_data.csv', index=False)
